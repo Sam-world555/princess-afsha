@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Princess Afsha ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@400;700&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(120deg, #ffd6e0 24%, #ccdfff 100%);
+      font-family: 'Montserrat', Arial, sans-serif;
+      overflow-x: hidden;
+      position: relative;
+    }
+    .hearts-bg {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 0;
+    }
+    .heart-float {
+      position: absolute;
+      font-size: 2.2rem;
+      opacity: 0.44;
+      animation: heartRain 9s linear infinite;
+      pointer-events: none;
+      user-select: none;
+    }
+    .heart1 { left: 10%; animation-delay:0s;}
+    .heart2 { left: 32%; animation-delay:3s;}
+    .heart3 { left: 71%; animation-delay:2s;}
+    .heart4 { left: 58%; animation-delay:6.5s;}
+    .heart5 { left: 85%; animation-delay:1.1s;}
+    .heart6 { left: 42%; animation-delay:7.4s;}
+    @keyframes heartRain {
+      0% {top: -12%;}
+      12% {opacity: 0.8;}
+      20% {opacity:1;}
+      80% {opacity: 0.8;}
+      100% {top:90vh; opacity:0.3;}
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      min-height: 92vh;
+      padding-top: 40px;
+      position: relative;
+      z-index: 1;
+      justify-content: center;
+    }
+    .pic-side {
+      flex: 1 1 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .pic-side img {
+      border-radius: 31px;
+      max-width: 325px;
+      border: 4px solid #ee2a7b55;
+      box-shadow: 0 12px 42px #ffd6f488;
+      margin: 28px 20px;
+      transition: transform 0.8s cubic-bezier(.23,.87,.33,.92), box-shadow 0.55s;
+      animation: imgPop 2s;
+    }
+    .pic-side img:hover {
+      transform: scale(1.10) rotate(-3deg);
+      box-shadow: 0 12px 70px 0 #ffb6c1;
+    }
+    @keyframes imgPop {
+      from {opacity: 0; transform:scale(0.9);}
+      to {opacity: 1; transform:scale(1);}
+    }
+    .msg-side {
+      flex: 1 1 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      min-width: 320px;
+      z-index:2;
+      animation: msgIn 2.2s cubic-bezier(.34,.66,.53,1.06);
+    }
+    @keyframes msgIn {
+      from {opacity: 0; transform:translateX(120px);}
+      to {opacity: 1; transform:translateX(0);}
+    }
+    .title {
+      font-family: 'Kaushan Script', 'Cookie', cursive;
+      color: #ee2a7b;
+      font-size: 2.5rem;
+      letter-spacing: 1.3px;
+      margin-bottom: 7px;
+      animation: fadein 2s;
+    }
+    .subtitle {
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: #24b6b6;
+      font-size: 1.21rem;
+      margin-bottom: 11px;
+      font-weight: 700;
+    }
+    .heart {
+      font-size: 2rem;
+      color: #fd5b8c;
+      margin-bottom: 10px;
+      animation: heartbeat 1.12s infinite;
+      display: inline-block;
+    }
+    .message-box {
+      background: rgba(255,255,255,0.87);
+      max-width: 470px;
+      padding: 28px 20px 18px 24px;
+      margin: 8px 0 16px 0;
+      border-radius: 17px;
+      box-shadow: 0 8px 32px rgba(248, 176, 209, 0.17);
+      border: 1.2px solid #ffc2e0;
+    }
+    .main-text {
+      font-family: 'Cookie', cursive;
+      font-size: 1.7rem;
+      color: #ee2a7b;
+      margin-bottom: 10px;
+      animation: fadein 2.4s;
+    }
+    .deep {
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: #373737;
+      font-size: 1.04rem;
+      margin-bottom: 9px;
+      line-height: 1.7;
+      animation: fadein 2.6s;
+    }
+    .footer {
+      font-size: 1.03rem;
+      color: #6f6f6f;
+      text-align: left;
+      margin-bottom: 6px;
+      font-family: 'Montserrat', Arial, sans-serif;
+      animation: fadein 2.6s;
+    }
+    @media (max-width: 900px) {
+      .container { flex-direction:column; align-items:center; }
+      .msg-side { align-items: center;}
+    }
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1);}
+      18% { transform: scale(1.22);}
+      37% { transform: scale(0.92);}
+    }
+    @keyframes fadein {
+      from { opacity: 0;}
+      to { opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating hearts animated background -->
+  <div class="hearts-bg">
+    <span class="heart-float heart1">💖</span>
+    <span class="heart-float heart2">💗</span>
+    <span class="heart-float heart3">💕</span>
+    <span class="heart-float heart4">❤️</span>
+    <span class="heart-float heart5">💞</span>
+    <span class="heart-float heart6">💘</span>
+  </div>
+  <div class="container">
+    <div class="pic-side">
+      <img src="https://github.com/sam-world555/princess-afsha/blob/main/IMG_20251015_125304_586.jpg?raw=true" alt="Afsha">
+    </div>
+    <div class="msg-side">
+      <div class="title">For My Princess Afsha</div>
+      <div class="heart">❤️</div>
+      <div class="subtitle">My soulmate & my everything</div>
+      <div class="message-box">
+        <div class="main-text">I love you so much, princess.</div>
+        <div class="deep">
+          To the girl who is a poem my heart reads again and again.<br>
+          Your laugh is my favourite sound, and your smile is the sunrise of my world.<br>
+          Falling for you was fate, staying with you is my choice, and loving you forever is my promise.<br>
+          Every day I’m more sure: we’re soulmates, twin flames, and the proof that true love exists.<br>
+          You’re not just my girl, you’re my inspiration, my home, my forever.
+        </div>
+        <div class="footer">
+          -- Yours Always, with all my heart 💝
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
